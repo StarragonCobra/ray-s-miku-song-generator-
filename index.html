@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ray’s Hatsune Miku Song Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Ray’s Hatsune Miku Song Generator</h1>
+    <textarea id="lyrics" placeholder="Paste your lyrics here"></textarea>
+    <br>
+    <button id="generate">Generate Song</button>
+    <br>
+    <label>Background Beat:</label>
+    <input type="range" id="beat" min="0" max="100" value="50">
+    <audio id="output" controls></audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
